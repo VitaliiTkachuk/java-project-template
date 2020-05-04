@@ -9,7 +9,7 @@ This is template for CI configurations
 https://devcenter.heroku.com/articles/heroku-cli-commands
 * create account on heroku.com
 * ```heroku login```
-* ```heroku create java-project-template```
+* ```heroku create java-project-template-vt```
 * ```heroku info```
 * ```mvn clean heroku:deploy-war```
 * ```heroku open```
