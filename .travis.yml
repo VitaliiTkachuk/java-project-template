@@ -1,7 +1,7 @@
 sudo: required
 dist: trusty
 jdk:
-- openjdk11
+- jdk-11.0.7
 deploy:
   provider: heroku
   api_key:
