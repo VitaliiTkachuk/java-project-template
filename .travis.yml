@@ -6,6 +6,7 @@ deploy:
   provider: heroku
   api_key:
     secure: "8dffeee5-4941-473f-9dc4-f134817baf02"
+      app: java-project-template-vt
 script:
 - mvn clean install -Djacoco.skip=true
 - mvn sonar:sonar
