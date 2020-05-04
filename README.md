@@ -6,6 +6,7 @@ This is template for CI configurations
 * ```mvn clean install -Djacoco.skip=true```
 * ```mvn jetty:run```
 
+
 ## heroku
 https://devcenter.heroku.com/articles/heroku-cli-commands
 * create account on heroku.com
