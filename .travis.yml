@@ -7,7 +7,7 @@ deploy:
   api_key:
     secure: "8dffeee5-4941-473f-9dc4-f134817baf02"
 script:
-- mvn clean install
+- mvn clean install -Djacoco.skip=true
 - mvn sonar:sonar
 - mvn clean heroku:deploy-war
 cache:

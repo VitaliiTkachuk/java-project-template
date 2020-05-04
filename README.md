@@ -3,6 +3,7 @@ This is template for CI configurations
 
 ## launch
 * ```mvn install```
+* ```mvn clean install -Djacoco.skip=true```
 * ```mvn jetty:run```
 
 ## heroku
